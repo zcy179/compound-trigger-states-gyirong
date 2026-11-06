@@ -1,0 +1,12 @@
+﻿check,observed,required_for_forward_test,verdict,evidence
+Inventory records,"84 gullies, 81 columns",one dated event per gully,meta,gullies_features.csv
+Date-like columns,"解译Time, 影像Time (2 of 81)",an event-occurrence date column,FAIL,"column scan, ISO-date regex >0.9"
+解译Time distinct values,"1 (2020-07-25, 84/84 rows)",up to 84 distinct event dates,FAIL,value_counts
+影像Time distinct values,7 (2010-05-08 .. 2017-11-11),up to 84 distinct event dates,FAIL,value_counts
+Imaging platform / type,"Google earth / 1 m, constant",not applicable to event dating,meta,"影像类, 影像type"
+ArcGIS lineage,33 + 3 CalculateField batch assignments,a recorded event chronology,FAIL,.shp.xml Process Step records
+Original DBF fields,"33 fields, no event-date field",an event-date field,FAIL,"DBF header, gully_cols.txt"
+Dates inside CTI series,0 of 8 (CTI starts 2021-05-01),>=1,FAIL,p2_cti_series.csv date range
+Dated external events,"2 (2026-08-26, 2025-07-08), both post-selected",an event sample,PARTIAL,"Sections 4.1, 4.7"
+Red days / CTI days,38 / 1944 (June-September only),event dates inside the series,meta,"p2_cti_series.csv, CTI >= 2.5"
+Image batches in red season,0 of 7,n/a (detection-bias diagnostic),meta,paperA_b5_image_seasonality.csv

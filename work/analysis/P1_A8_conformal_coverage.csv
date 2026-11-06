@@ -1,0 +1,11 @@
+level,n,covered,coverage,width_med
+all positive cases,42,41,0.976,1.000
+test positive cases,24,23,0.958,1.000
+test episode 5,3,3,1.000,1.000
+test episode 6,4,4,1.000,1.000
+test episode 7,3,3,1.000,1.000
+test episode 8,5,5,1.000,1.000
+test episode 9,3,3,1.000,1.000
+test episode 10,3,3,1.000,1.000
+test episode 11,3,2,0.667,1.000
+test episodes (all cases covered),7,6,0.857,

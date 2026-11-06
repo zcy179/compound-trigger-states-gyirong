@@ -1,0 +1,32 @@
+﻿test,statistic,p,effect,n,note
+type_counts,,,,84,降雨型=41; 冰水混合型=25; 冰雪融水型=16; 冰湖溃决型=2
+fisher_large_2x2,inf,0.0015318273477492633,,84,cryo 9/43 vs rain 0/41; two-sided p=2.48e-03
+perm_chi2_magnitude_4x2,28.434642276422768,0.0143985601439856,0.33591052685097067,84,dof=9; asymptotic p=8.07e-04 (sparse)
+perm_chi2_frequency_4x2,10.009970082653009,0.11988801119888011,0.24409661049241746,84,dof=6
+mwu_magnitude_rain_vs_cryo,1351.0,2.7105632055410734e-06,0.5326148610323314,84,ordinal scale 1–4; positive effect = cryo larger
+mwu_frequency_rain_vs_cryo,634.0,0.017762385810474637,-0.28077141236528647,84,ordinal scale 1–3; positive effect = cryo higher frequency
+spearman_freq_mag_overall,-0.36180520353979256,0.000999900009999,,84,permutation p
+spearman_freq_mag_Rainfall,-0.43154256865708307,0.004999500049995001,,41,permutation p
+spearman_freq_mag_Ice–water mixed,-0.08026958930967944,0.6970302969703029,,25,permutation p
+spearman_freq_mag_Snow/ice melt,-0.45085221518185603,0.0580941905809419,,16,permutation p
+spearman_freq_mag_rain_vs_cryo,-0.43154256865708307,0.006199380061993801,,41,permutation p
+spearman_freq_mag_cryo_combined,-0.12914978320521894,0.41975802419758024,,43,permutation p
+auc_large_vs_cryo_flag,0.7733333333333333,0.0014998500149985001,,84,single-variable AUC for large/extreme (>=3)
+auc_large_vs_glacier_frac,0.7733333333333333,0.0018998100189981002,,84,single-variable AUC for large/extreme (>=3)
+auc_large_vs_lc10_snow_ice,0.7429629629629629,0.0066993300669933005,,84,single-variable AUC for large/extreme (>=3)
+auc_large_vs_dist_to_glacier,0.7318518518518519,0.012398760123987601,,84,single-variable AUC for large/extreme (>=3)
+auc_large_vs_fan_elevation,0.457037037037037,0.6612338766123388,,84,single-variable AUC for large/extreme (>=3)
+auc_highfreq_vs_cryo_flag,0.5951696377228292,0.06409359064093591,,84,single-variable AUC for high frequency class
+auc_highfreq_vs_glacier_frac,0.4787234042553192,0.6492350764923508,,84,single-variable AUC for high frequency class
+auc_highfreq_vs_dist_to_glacier,0.569867740080506,0.1342865713428657,,84,single-variable AUC for high frequency class
+kruskal_height,15.555308628673574,0.0004189938506776662,0.17158618517308322,82,3 main types (n=82); BH q=0.000576; MWU rain-vs-cryo p=0.677
+kruskal_高程Max,39.43548566924844,2.7333364403700205e-09,0.4738669072056765,82,3 main types (n=82); BH q=1e-08; MWU rain-vs-cryo p=1.58e-09
+kruskal_高差,30.498636982755883,2.3839938263474158e-07,0.36074224028804913,82,3 main types (n=82); BH q=5.24e-07; MWU rain-vs-cryo p=9.64e-06
+kruskal_沟比降,10.222810862725169,0.0060276055819079195,0.10408621345221733,82,3 main types (n=82); BH q=0.00663; MWU rain-vs-cryo p=0.00431
+kruskal_主沟长,28.672073672441115,5.942077470502653e-07,0.3376211857271027,82,3 main types (n=82); BH q=9.34e-07; MWU rain-vs-cryo p=2.1e-07
+kruskal_Area,29.6052375593988,3.7265276355257715e-07,0.3494333868278329,82,3 main types (n=82); BH q=6.83e-07; MWU rain-vs-cryo p=2.54e-07
+kruskal_glacier_frac_mean,58.098330313488695,2.421630448064899e-13,0.710105447006186,82,3 main types (n=82); BH q=2.66e-12; MWU rain-vs-cryo p=7.4e-09
+kruskal_lc10,48.8555956764882,2.4611732931867286e-11,0.5931088060314962,82,3 main types (n=82); BH q=1.35e-10; MWU rain-vs-cryo p=1.06e-08
+kruskal_lc7,1.9287735904658263,0.38121689209690846,-0.000901600120685743,82,3 main types (n=82); BH q=0.381; MWU rain-vs-cryo p=0.212
+kruskal_slope_mean,12.697809680124408,0.0017486611516313872,0.13541531240663807,82,3 main types (n=82); BH q=0.00214; MWU rain-vs-cryo p=0.133
+kruskal_dist_glacier_mean,37.99826849336671,5.607649177470292e-09,0.4556742847261609,82,3 main types (n=82); BH q=1.54e-08; MWU rain-vs-cryo p=1.62e-06

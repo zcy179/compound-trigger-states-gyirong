@@ -1,0 +1,14 @@
+P_STAR,0.0500
+C_star,2.5000
+SIG_T,0.9137
+RHO_T,0.6629
+SIG_VPD,0.3138
+TM_BIAS,1.5357
+SIG_Plog,1.2444
+PFAC,0.1994
+GAM_C_per_km,4.2526
+lead_first_h,122.5000
+R_eff_km,30.0000
+L_channel_km,22.1515
+n_ens,4000.0000
+n_hind,1500.0000

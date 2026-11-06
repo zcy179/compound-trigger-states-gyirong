@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Generated / local
+/work.zip
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Credentials - never commit
+key.txt
+*_token.txt
+*.pem
+.env
+.env.*
+.ssh/
+
+# Editor / IDE
+.vscode/
+.idea/

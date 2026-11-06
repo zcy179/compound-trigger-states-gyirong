@@ -1,0 +1,4 @@
+pair,kendall_tau,normal_corr
+API7—PDD_3d,0.2275,0.3498
+API7—VPD_kPa_max,-0.0516,-0.0809
+PDD_3d—VPD_kPa_max,0.3312,0.4970

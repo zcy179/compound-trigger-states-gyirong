@@ -1,0 +1,29 @@
+﻿table,type_cn,type_en,class_cn,n,row_n,row_pct
+magnitude,降雨型,Rainfall,小,24,41,58.53658536585366
+magnitude,降雨型,Rainfall,中,17,41,41.46341463414634
+magnitude,降雨型,Rainfall,大,0,41,0.0
+magnitude,降雨型,Rainfall,特大,0,41,0.0
+magnitude,冰水混合型,Ice–water mixed,小,6,25,24.0
+magnitude,冰水混合型,Ice–water mixed,中,15,25,60.0
+magnitude,冰水混合型,Ice–water mixed,大,3,25,12.0
+magnitude,冰水混合型,Ice–water mixed,特大,1,25,4.0
+magnitude,冰雪融水型,Snow/ice melt,小,0,16,0.0
+magnitude,冰雪融水型,Snow/ice melt,中,12,16,75.0
+magnitude,冰雪融水型,Snow/ice melt,大,3,16,18.75
+magnitude,冰雪融水型,Snow/ice melt,特大,1,16,6.25
+magnitude,冰湖溃决型,Glacial lake outburst,小,0,2,0.0
+magnitude,冰湖溃决型,Glacial lake outburst,中,1,2,50.0
+magnitude,冰湖溃决型,Glacial lake outburst,大,1,2,50.0
+magnitude,冰湖溃决型,Glacial lake outburst,特大,0,2,0.0
+frequency,降雨型,Rainfall,低,5,41,12.195121951219512
+frequency,降雨型,Rainfall,中,14,41,34.146341463414636
+frequency,降雨型,Rainfall,高,22,41,53.65853658536585
+frequency,冰水混合型,Ice–water mixed,低,11,25,44.0
+frequency,冰水混合型,Ice–water mixed,中,7,25,28.0
+frequency,冰水混合型,Ice–water mixed,高,7,25,28.0
+frequency,冰雪融水型,Snow/ice melt,低,5,16,31.25
+frequency,冰雪融水型,Snow/ice melt,中,4,16,25.0
+frequency,冰雪融水型,Snow/ice melt,高,7,16,43.75
+frequency,冰湖溃决型,Glacial lake outburst,低,0,2,0.0
+frequency,冰湖溃决型,Glacial lake outburst,中,1,2,50.0
+frequency,冰湖溃决型,Glacial lake outburst,高,1,2,50.0

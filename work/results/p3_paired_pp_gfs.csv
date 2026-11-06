@@ -1,0 +1,2 @@
+n_paired,clim,bss_pp,bss_gfs,bss_diff,bss_diff_lo,bss_diff_hi,auc_pp,auc_gfs,auc_diff,auc_diff_lo,auc_diff_hi,pod_pp,pod_gfs,far_pp,far_gfs,onset_err_med,onset_err_q25,onset_err_q75,n_paired_gefs,bss_pp_gefs,bss_gefs
+437,0.0549,0.7366,0.3327,0.4025,0.1555,0.6235,0.9987,0.9502,0.0481,0.0248,0.0758,1.0000,0.9583,0.4419,0.7527,0.0000,0.0000,0.0000,147,0.7797,0.2140

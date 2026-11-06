@@ -1,0 +1,9 @@
+﻿kind,date,year,doy,month,n_cti_days_in_window,n_red_in_window,in_red_season
+image batch,2010-05-08,2010,128,5,90,0,False
+image batch,2014-12-28,2014,362,12,56,0,False
+image batch,2015-05-08,2015,128,5,90,0,False
+image batch,2015-05-13,2015,133,5,90,0,False
+image batch,2017-10-10,2017,283,10,75,0,False
+image batch,2017-10-17,2017,290,10,75,0,False
+image batch,2017-11-11,2017,315,11,75,0,False
+interpretation batch,2020-07-25,2020,207,7,90,5,True

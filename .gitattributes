@@ -1,0 +1,2 @@
+# Keep every file byte-identical on checkout; MANIFEST.csv stores raw SHA-256.
+* -text

@@ -1,0 +1,12 @@
+mu,0.040
+xi,150.000
+V0,5000000.000
+runout_p95,21.819
+runout_med,21.614
+area_km2,0.192
+dmax,40.066
+fan_depth,40.066
+arr_med_fan,inf
+ens_runout_p05,21.819
+ens_runout_p95,21.862
+ens_area_p50,0.185
