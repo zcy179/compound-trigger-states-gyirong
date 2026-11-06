@@ -4,8 +4,8 @@ Companion data and code for the manuscript *"Forecasting compound trigger states
 high-mountain ice–rock avalanche–debris-flow chain: a copula–first-passage framework with
 calibrated, episode-aware verification"*. Archive assembled 6 November 2026.
 
-The archive contains 96 files (11 Python scripts/modules, 80 data files, this README, a
-checksum manifest, a licence file, a `.gitattributes` and a `.gitignore`), about 3.5 MB. All paths are relative to the archive root; no installation
+The archive contains 99 files (12 Python scripts/modules, 82 data files, this README, a
+checksum manifest, a licence file, a `.gitattributes` and a `.gitignore`), about 3.3 MB. All paths are relative to the archive root; no installation
 or configuration is needed.
 
 ## Layout
@@ -37,6 +37,7 @@ From the archive root:
 
 ```
 python work/analysis/p1_a_b6_score_recomputation.py
+python work/analysis/p1_a_paired_main_track.py
 python work/analysis/p1_a_b1_day_verification.py
 python work/analysis/p1_a_b2_information_matched.py
 cd work/analysis && python P2_holdout_reanalysis.py
@@ -50,6 +51,15 @@ asserts 72 published point scores of manuscript Table 8a, the GFS curves of Fig.
 Supplementary Table S11. The largest deviation is 4.86 × 10⁻⁵, attributable to four-decimal
 rounding. This is score-level, not probability-level, reproducibility: no forecast probability
 is regenerated, refitted or resampled.
+
+`p1_a_paired_main_track.py` rebuilds the paired comparison of Section 4.5 and the cost–loss
+curves of Section 4.6 from a single archive chain — the main H = 7 track with the 19 August 2026
+cut-off (`work/analysis/P1_A6_h7_hindcast_cases.csv`). It asserts the published point scores on
+both sides (perfect-prog BSS 0.7667 and AUC 0.996; GFS 0.3327 and 0.9502; GEFS 0.8744 and
+0.1350) and reproduces the archived GFS cost–loss table to within 4.9 × 10⁻⁵. Point estimates
+and intervals are written to `work/results/p1_a_paired_main_track.csv`, the cost–loss rows to
+`work/analysis/P1_A8_costloss_main_track.csv`. The intervals use a 10-day block bootstrap with
+1,000 resamples and the seed fixed at 20261030, so they do reproduce.
 
 ## Scripts that require external source data
 
@@ -75,11 +85,11 @@ DOI/URL in the manuscript's Data availability section and Supplementary Table S1
 
 The script that converted raw GFS fields into the 455-issue, 1,500-member ensemble
 probabilities was not preserved, and the archived stochastic runs recorded no random seed.
-Consequently the per-issue probabilities themselves, the 10-day block-bootstrap 95% intervals
-of Table 8a, and the GFS side of the 437-issue paired comparison of Section 4.5 (BSS 0.3327,
-AUC 0.9502) are reported as published values and cannot be regenerated bit for bit. All point
-scores of Table 8a, the GFS curves of Fig. 5 and Supplementary Table S11 are recomputable from
-the archived per-issue files.
+Consequently the per-issue probabilities themselves, and the 10-day block-bootstrap 95%
+intervals of Tables 8a and 8b, are reported as published values and cannot be regenerated bit
+for bit. Everything downstream of the archived probabilities does reproduce: all point scores
+of Table 8a, the GFS curves of Fig. 5, Supplementary Table S11, the paired comparison of
+Section 4.5 including its GFS and GEFS sides, and the cost–loss curves of Section 4.6.
 
 ## Source data
 
